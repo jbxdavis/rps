@@ -28,7 +28,7 @@
         function playRound(a,b){
           if (((a = "rock") && (b = "paper")) || ((a = "paper") && (b = "scissors")) || ((a = "scissors") && (b = "rock"))) {
             return "You lose - " + b + " beats " + a + "!";
-          } else if (((a = "rock") && (b = "scissors")) || ((a = "paper") && (b = "rock")) || ((a = "scissors") && (b = "paper")){
+          } else if(((a = "rock") && (b = "scissors")) || ((a = "paper") && (b = "rock")) || ((a = "scissors") && (b = "paper"))) {
             return "You win - " + a + " beats " + b + "!";
           } else if (a === b){
             return "It's a tie! You both picked " + a + "!";
